@@ -1,0 +1,27 @@
+.story {
+  background-image: url("../sweden.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 5px;
+  height: 100px;
+  vertical-align: baseline;
+}
+
+.row {
+  display: inline-block;
+  list-style: none;
+}
+
+.story-byline li {
+  display: inline;
+  list-style: none;
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .row > .list > div {
+    clear: both;
+    height: 90px;
+  }
+}
